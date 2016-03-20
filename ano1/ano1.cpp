@@ -1,4 +1,4 @@
-// ano1.cpp : Defines the entry point for the console application.
+// 
 //
 
 #include "stdafx.h"
@@ -658,6 +658,7 @@ void cv6()
 	}
 
 	float xt = 0, yt = 0;
+	float test;
 	float uMin = 0, uMax = 0;
 
 	float dF1 = 0;
