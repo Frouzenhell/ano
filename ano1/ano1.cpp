@@ -339,6 +339,7 @@ bool indexation(cv::Mat mat, cv::Mat indexace, int row, int col, int index)
 	if (!(row >= 0 && row < mat.rows && col >= 0 && col < mat.cols)) return false;
 	if (mat.at<uchar>(row, col) == 0 || indexace.at<uchar>(row,col) != 0) return false;
 	raiseIndex = true;
+
 //	std::cout << row << "  " << col << "   " << index << std::endl;
 	indexace.at<uchar>(row, col) = index;
 	raiseIndex += indexation(mat, indexace, row + 1, col + 1, index);
