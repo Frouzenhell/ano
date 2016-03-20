@@ -714,6 +714,7 @@ void cv6()
 
 int main(int argc, char* argv[])
 {
+	//test wtf
 	//cv1();	// detekce hrany
 	//cv2();	// lambert + gaus
 	//cv3();	// double thresholding
